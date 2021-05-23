@@ -1,0 +1,49 @@
+body {background-color: rgb(24, 46, 240);
+  font-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+
+  background-image: url('Toronto Maples Leafs Backround Image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 2000px 1500px;
+}
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: yellow;
+          padding: 8px;
+          background-color: black;
+        }
+ 
+        a:link {
+          color: yellow;
+        }
+        
+        a:visited {
+          color: blue;
+        }
+        
+        a:hover {
+          color: orangered;
+        }
+        
+        a:active {
+          color: skyblue;}
+
+        font {
+          color: white
+        }
